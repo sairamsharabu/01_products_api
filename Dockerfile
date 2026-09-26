@@ -1,4 +1,5 @@
-FROM openjdk:17
+# FROM openjdk:17 its deprecated
+FROM eclipse-temurin:17-jdk-alpine
 
 MAINTAINER <Ashok Bollepalli>
 
