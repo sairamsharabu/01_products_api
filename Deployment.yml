@@ -16,7 +16,7 @@ spec:
   spec:
     containers:
     - name: productscontainer
-      image: ashokit/products
+      image: sairam7892/products
       ports:
       - containerPort: 8080
 ---
@@ -25,7 +25,7 @@ kind: Service
 metadata:
  name: productssvc
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
    app: products
   ports:
