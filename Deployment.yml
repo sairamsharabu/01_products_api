@@ -16,7 +16,7 @@ spec:
   spec:
     containers:
     - name: productscontainer
-      image: sairam7892/products
+      image: sairam7892/products:latest
       ports:
       - containerPort: 8080
 ---
